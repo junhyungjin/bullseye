@@ -10,11 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var currentValue: Int = 0
+    var currentValue: Int = 50
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        currentValue = lroundf(slider.value)
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,15 +24,17 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showAlert() {
-        let alert = UIAlertController(title: "Hello, WOrld", message: "This is my first App!", preferredStyle: .Alert)
-        let action = UIAlertAction(title: "Awesome", style: .Default, handler: nil)
+        let message = "The value of the slider is: \(currentValue)"
+        
+        let alert = UIAlertController(title: "Hello, WOrld", message: message, preferredStyle: .Alert)
+        let action = UIAlertAction(title: "OK", style: .Default, handler: nil)
         
         alert.addAction(action)
         presentViewController(alert, animated: true, completion: nil)
     }
     
     @IBAction func sliderMoved(slider: UISlider) {
-        print("The value of the slider is now: \(slider.value)")
+        currentValue = lroundf(slider.value)
     }
 
 
