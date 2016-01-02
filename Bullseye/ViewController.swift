@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     var currentValue: Int = 50
+    @IBOutlet weak var slider: UISlider!
 
     override func viewDidLoad() {
         super.viewDidLoad()
