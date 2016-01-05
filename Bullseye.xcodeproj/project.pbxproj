@@ -14,6 +14,7 @@
 		D808CA081C3221BB007A0EBC /* BullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D808CA071C3221BB007A0EBC /* BullseyeTests.swift */; };
 		D808CA131C3221BB007A0EBC /* BullseyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D808CA121C3221BB007A0EBC /* BullseyeUITests.swift */; };
 		D8B64C931C3C127300D55A56 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = D8B64C921C3C127300D55A56 /* BullsEye.html */; };
+		D8B64C951C3C25BA00D55A56 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8B64C941C3C25BA00D55A56 /* Default-568h@2x.png */; };
 		D8B9C9E21C3AD1A900077F57 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B9C9E01C3AD1A900077F57 /* AboutViewController.swift */; };
 		D8B9C9E31C3AD1A900077F57 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8B9C9E11C3AD1A900077F57 /* AboutViewController.xib */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		D808CA121C3221BB007A0EBC /* BullseyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeUITests.swift; sourceTree = "<group>"; };
 		D808CA141C3221BB007A0EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8B64C921C3C127300D55A56 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = "../../../Downloads/The iOS Apprentice 1 - Getting Started/Resources/BullsEye.html"; sourceTree = "<group>"; };
+		D8B64C941C3C25BA00D55A56 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D8B9C9E01C3AD1A900077F57 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		D8B9C9E11C3AD1A900077F57 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +83,7 @@
 		D808C9E61C3221BA007A0EBC = {
 			isa = PBXGroup;
 			children = (
+				D8B64C941C3C25BA00D55A56 /* Default-568h@2x.png */,
 				D808C9F11C3221BA007A0EBC /* Bullseye */,
 				D808CA061C3221BB007A0EBC /* BullseyeTests */,
 				D808CA111C3221BB007A0EBC /* BullseyeUITests */,
@@ -239,6 +242,7 @@
 				D808C9FA1C3221BA007A0EBC /* Assets.xcassets in Resources */,
 				D8B9C9E31C3AD1A900077F57 /* AboutViewController.xib in Resources */,
 				D808C9F81C3221BA007A0EBC /* Main.storyboard in Resources */,
+				D8B64C951C3C25BA00D55A56 /* Default-568h@2x.png in Resources */,
 				D8B64C931C3C127300D55A56 /* BullsEye.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,7 +406,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Bullseye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = orca.jun.Bullseye;
+				PRODUCT_BUNDLE_IDENTIFIER = jsoft.jun.Bullseye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -416,7 +420,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Bullseye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = orca.jun.Bullseye;
+				PRODUCT_BUNDLE_IDENTIFIER = jsoft.jun.Bullseye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
