@@ -13,6 +13,7 @@
 		D808C9FA1C3221BA007A0EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D808C9F91C3221BA007A0EBC /* Assets.xcassets */; };
 		D808CA081C3221BB007A0EBC /* BullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D808CA071C3221BB007A0EBC /* BullseyeTests.swift */; };
 		D808CA131C3221BB007A0EBC /* BullseyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D808CA121C3221BB007A0EBC /* BullseyeUITests.swift */; };
+		D892B2301C3B92CE00B5D0BB /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = D892B22F1C3B92CE00B5D0BB /* BullsEye.html */; };
 		D8B9C9E21C3AD1A900077F57 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B9C9E01C3AD1A900077F57 /* AboutViewController.swift */; };
 		D8B9C9E31C3AD1A900077F57 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8B9C9E11C3AD1A900077F57 /* AboutViewController.xib */; };
 /* End PBXBuildFile section */
@@ -47,6 +48,7 @@
 		D808CA0E1C3221BB007A0EBC /* BullseyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullseyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D808CA121C3221BB007A0EBC /* BullseyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeUITests.swift; sourceTree = "<group>"; };
 		D808CA141C3221BB007A0EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D892B22F1C3B92CE00B5D0BB /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = "../../../Downloads/The iOS Apprentice 1 - Getting Started 2/Resources/BullsEye.html"; sourceTree = "<group>"; };
 		D8B9C9E01C3AD1A900077F57 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		D8B9C9E11C3AD1A900077F57 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +101,7 @@
 		D808C9F11C3221BA007A0EBC /* Bullseye */ = {
 			isa = PBXGroup;
 			children = (
+				D892B22F1C3B92CE00B5D0BB /* BullsEye.html */,
 				D808C9F21C3221BA007A0EBC /* AppDelegate.swift */,
 				D808C9F41C3221BA007A0EBC /* ViewController.swift */,
 				D808C9F61C3221BA007A0EBC /* Main.storyboard */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D808C9FA1C3221BA007A0EBC /* Assets.xcassets in Resources */,
+				D892B2301C3B92CE00B5D0BB /* BullsEye.html in Resources */,
 				D8B9C9E31C3AD1A900077F57 /* AboutViewController.xib in Resources */,
 				D808C9F81C3221BA007A0EBC /* Main.storyboard in Resources */,
 			);
